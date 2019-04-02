@@ -19,7 +19,7 @@ MEME.MemeModel = Backbone.Model.extend({
     imageSrc: '',
     overlayAlpha: 0.5,
     overlayColor: '#000',
-    overlayColorOpts: ['#000', '#777', '#2980b9'],
+    overlayColorOpts: ['#000', '#777', '#2980b9', '#232D4B'],
     paddingRatio: 0.05,
     textAlign: 'left',
     textAlignOpts: ['left', 'center', 'right'],
@@ -27,7 +27,7 @@ MEME.MemeModel = Backbone.Model.extend({
     textShadowEdit: true,
     watermarkAlpha: 0.75,
     watermarkMaxWidthRatio: 0.25,
-    watermarkSrc: '',
+    watermarkSrc: 'meme/source/images/uva_primary_rgb_white.png',
     watermarkOpts: [],
     width: 755
   },
