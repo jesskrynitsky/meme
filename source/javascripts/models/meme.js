@@ -27,7 +27,7 @@ MEME.MemeModel = Backbone.Model.extend({
     textShadowEdit: true,
     watermarkAlpha: 0.75,
     watermarkMaxWidthRatio: 0.25,
-    watermarkSrc: '',
+    watermarkSrc: 'meme/source/images/uva_primary_rgb_white.png',
     watermarkOpts: [],
     width: 755
   },
